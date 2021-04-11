@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Claire Nelson's Portfolio
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link href="./style.css" type="text/css" rel="stylesheet">
+        <style>
+            .center {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            </style>
+    </head>
+        <body>
+        <nav class="topnav" id="portfolioTopnav">
+            <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fa fa-bars"></i></a> 
+            <a href="#contact">Contact</a>
+            <a href="#accomplishments">Accomplishements</a>
+            <a href="#skills">Skills</a>
+            <a href="#about">About</a>
+        </nav>
+        <main>
+            <!--About Section-->
+           <header>
+               <h1>Claire Nelson</h1>
+            </header>
+           <div id="aboutsection">
+             <a href="https://scholar.google.com/citations?user=vn8fldUAAAAJ&hl=en&inst=9721106046687621530" target="_blank"> 
+                <figure><img src= "download20210305142756.png" alt="A picrew image in a popart style of a woman with dark hair wearing blue glasses holding a takeaway coffee cup" width="200" height="250"/></a><figcaption>Claire Nelson APD AFHEA</figcaption></figure>
+                <h2 class="heading uppercase"; id="about">The Thoughtful Dietitian</h2>
+                <p>
+            I am an Accredited Practicing Dietitian (APD).
+            My PhD research has focused on nutrition status of community-dwelling adults with chronic lower leg wounds.
+            In my academic roles I have worked with both nutrition and non-nutrition students to help them gain a greater understanding of the role of nutrition in health. I was awarded an associate fellowship with the Higher Education Academy (AFHEA) in 2019 in acknowledgement of my commitment to teaching.
+           </p>
+           <!--Skills Section-->
+           <h2 id="skills">Skills</h2>
+           <h3>Research Skills</h3>
+            <ul class="list">
+                    <li>Report writing</li>
+                    <li>Data collection</li>
+                    <li>Planning and scheduling</li>
+                    <li>Analysis</li>
+                </ul>
+            <h3>Interpersonal Skills</h3>
+            <ul class="list">
+                <li>Active listening</li>
+                <li>Teamwork</li>
+                <li>Responsibility</li>
+                <li>Leadership</li>
+            </ul>
+            <h3>Technical Skills</h3>
+            <ul class="list">
+                <li>Programming language</li>
+                <li>SPSS</li>
+                <li>Microsoft suite</li>
+            </ul>
+         </div>
+        <div id="accomplishmentssection">
+            <!--Accomplishments Section-->
+            <h2 id="Accomplishments">Accomplishments</h2>
+            <table>
+                <tr>
+                    <th scope="Col">Publications</th><th scope="col">Awards</th><th scope="col">Presentations</th>
+                </tr>
+                <tr>
+                    <td>nil</td><td>WMICRC scholarship</td><td>World Union</td>
+                </tr>
+            </table>
+            <p></p>
+            <p></p>
+        <h3>Coding Examples</h3>
+        <div class="indexsubmit"><button id = "codeexample">
+            <a href="quiz.html" target="_blank">Take the Portfolio Quiz</a></button></div>
+     </div>
+    <div id="contactsection">
+        <!--Contact Section-->
+        <h2 class="contactform" id="Contact">Contact</h2>
+            <a href= "https://www.facebook.com/claire.nelson.528" target="_blank"> Facebook </a>
+            <form>
+                <label for="name">Please Enter your name*</label>
+                <input type="text" name="name-text-field" id="name" required>
+                <br>
+                <br>
+                <label for="email">Email*</label>
+                <br>
+                <input type="text" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                <br>
+                <br>
+                <label for="mobile" name="mobile">Mobile (optional)</label>
+                <br>
+                <input type="number" name="mobile" id="mobile" pattern="[0-9]">
+                <br>
+                <br>
+                <label for= "message">Leave your message below*</label>
+                <br>
+                <textarea id="message" name = "message" required rows="5" cols="30"></textarea>
+                <br>
+                <br>
+                <input type="submit">
+            </form>
+    </div>
+    <script src="./nav.js">
+    </script>
+        </body>
+    </main>
+</html>
